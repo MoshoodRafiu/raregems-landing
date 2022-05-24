@@ -1,333 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon-2.png" />
+    <title>Rare Gems</title>
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/theme/pink.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/favicon-2.png">
-  <title>Rare Gems</title>
-  <link rel="stylesheet" href="css/plugins.css">
-  <link rel="stylesheet" href="css/theme/pink.css">
-</head>
-
-<body>
-  <div class="content-wrapper">
-    <header class="wrapper bg-soft-primary">
-      <nav class="navbar center-nav transparent navbar-expand-lg navbar-light">
-        <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100"><a href="index.html"><img src="img/rare-gems-logo-2.png" srcset="img/rare-gems-logo-2.png 2x" alt="" /></a></div>
-          <div class="navbar-collapse offcanvas-nav">
-            <div class="offcanvas-header d-lg-none d-xl-none">
-              <a href="index.html"><img src="img/rare-gems-logo-2.png" srcset="img/rare-gems-logo-2.png 2x" alt="" /></a>
-              <button type="button" class="btn-close btn-close-white offcanvas-close offcanvas-nav-close" aria-label="Close"></button>
+  <body>
+    <div class="content-wrapper">
+      <header class="wrapper bg-soft-primary">
+        <nav
+          class="navbar center-nav transparent navbar-expand-lg navbar-light"
+        >
+          <div class="container flex-lg-row flex-nowrap align-items-center">
+            <div class="navbar-brand w-100">
+              <a href="index.html"
+                ><img
+                  src="img/rare-gems-logo-2.png"
+                  srcset="img/rare-gems-logo-2.png 2x"
+                  alt=""
+              /></a>
             </div>
+            <div class="navbar-collapse offcanvas-nav">
+              <div class="offcanvas-header d-lg-none d-xl-none">
+                <a href="index.html"
+                  ><img
+                    src="img/rare-gems-logo-2.png"
+                    srcset="img/rare-gems-logo-2.png 2x"
+                    alt=""
+                /></a>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white offcanvas-close offcanvas-nav-close"
+                  aria-label="Close"
+                ></button>
+              </div>
+            </div>
+            <!-- /.navbar-collapse -->
+            <div class="navbar-other w-100 d-flex ms-auto">
+              <ul
+                class="navbar-nav flex-row align-items-center ms-auto"
+                data-sm-skip="true"
+              >
+                <li class="nav-item dropdown language-select text-uppercase">
+                  <a
+                    class="nav-link dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    ><i class="uil uil-info-circle"></i
+                  ></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="https://app.raregems.ng/register"
+                        >Sign up</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="dropdown-item"
+                        href="frequently-asked-questions.html"
+                        >F.A.Q</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="terms-and-condition.html"
+                        >Terms & Condition</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="dropdown-item" href="privacy-policy.html"
+                        >Privacy Policy</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                  <a
+                    href="https://app.raregems.ng"
+                    class="btn btn-sm btn-primary"
+                    >Sign In</a
+                  >
+                </li>
+                <li class="nav-item d-lg-none">
+                  <div class="navbar-hamburger">
+                    <button
+                      class="hamburger animate plain"
+                      data-toggle="offcanvas-nav"
+                    >
+                      <span></span>
+                    </button>
+                  </div>
+                </li>
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-other -->
           </div>
-          <!-- /.navbar-collapse -->
-          <div class="navbar-other w-100 d-flex ms-auto">
-            <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
-              <li class="nav-item dropdown language-select text-uppercase">
-                <a class="nav-link dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="uil uil-info-circle"></i></a>
-                <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="dropdown-item" href="https://app.raregems.ng/register">Sign up</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="frequently-asked-questions.html">F.A.Q</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="terms-and-condition.html">Terms & Condition</a></li>
-                  <li class="nav-item"><a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a></li>
-                </ul>
-              </li>
-              <li class="nav-item d-none d-md-block">
-                <a href="https://app.raregems.ng" class="btn btn-sm btn-primary">Sign In</a>
-              </li>
-              <li class="nav-item d-lg-none">
-                <div class="navbar-hamburger"><button class="hamburger animate plain" data-toggle="offcanvas-nav"><span></span></button></div>
-              </li>
-            </ul>
-            <!-- /.navbar-nav -->
+          <!-- /.container -->
+        </nav>
+        <!-- /.navbar -->
+      </header>
+      <!-- /header -->
+      <section class="wrapper bg-soft-primary">
+        <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="display-1 mb-3">Frequently Asked Questions</h1>
+              <nav class="d-inline-block" aria-label="breadcrumb"></nav>
+              <!-- /nav -->
+            </div>
+            <!-- /column -->
           </div>
-          <!-- /.navbar-other -->
+          <!-- /.row -->
         </div>
         <!-- /.container -->
-      </nav>
-      <!-- /.navbar -->
-    </header>
-    <!-- /header -->
-    <section class="wrapper bg-soft-primary">
-      <div class="container pt-10 pb-12 pt-md-14 pb-md-16 text-center">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h1 class="display-1 mb-3">Frequently Asked Questions</h1>
-            <nav class="d-inline-block" aria-label="breadcrumb">
+      </section>
+      <!-- /section -->
+      <section class="wrapper bg-light wrapper-border">
+        <div class="container py-14 py-md-16">
+          <h2 class="display-4 mb-3 text-center">FAQ</h2>
+          <p class="lead text-center mb-10 px-md-16 px-lg-0">
+            If you don't see an answer to your question, you can send us an
+            email.
+          </p>
+          <div class="row">
+            <div class="col-lg-6 mb-0">
+              <div id="accordion-1" class="accordion-wrapper">
+                <div class="card">
+                  <div class="card-header" id="accordion-heading-1-1">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-1-1"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-1-1"
+                    >
+                      What can I Do on the Website/App?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-1-1"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-1-1"
+                    data-bs-target="#accordion-1"
+                  >
+                    <div class="card-body">
+                      <p>You can buy and sell digital gold / sliver assets</p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                  <div class="card-header" id="accordion-heading-1-2">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-1-2"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-1-2"
+                    >
+                      What options are available?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-1-2"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-1-2"
+                    data-bs-target="#accordion-1"
+                  >
+                    <div class="card-body">
+                      <p>
+                        You can buy and sell gold / sliver at the spot prices in
+                        digital format.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                  <div class="card-header" id="accordion-heading-1-3">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-1-3"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-1-3"
+                    >
+                      When can I buy or sell my gold/silver assets?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-1-3"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-1-3"
+                    data-bs-target="#accordion-1"
+                  >
+                    <div class="card-body">
+                      <p>
+                        You can buy or sell at anytime, 7 days a week, 24hours a
+                        day.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                  <div class="card-header" id="accordion-heading-1-4">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-1-4"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-1-4"
+                    >
+                      What payment options are available?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-1-4"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-1-4"
+                    data-bs-target="#accordion-1"
+                  >
+                    <div class="card-body">
+                      <p>
+                        You can either make payment with your card or do bank
+                        transfer to our account through your bank account. After
+                        deposit has been confirmed your wallet will be credited
+                        by the admin. Only card payment are automatically
+                        credited by the system.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+              </div>
+              <!-- /.accordion-wrapper -->
+            </div>
+            <!--/column -->
+            <div class="col-lg-6">
+              <div id="accordion-2" class="accordion-wrapper">
+                <!-- /.card -->
+                <div class="card">
+                  <div class="card-header" id="accordion-heading-1-6">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-1-6"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-1-6"
+                    >
+                      What is the Minimum I can Buy for Gold or Silver?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-1-6"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-1-6"
+                    data-bs-target="#accordion-1"
+                  >
+                    <div class="card-body">
+                      <p>
+                        The minimum amount you can buy for gold/silver is N1.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                  <div class="card-header" id="accordion-heading-1-7">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-1-7"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-1-7"
+                    >
+                      Can I Top-up my Gold or Silver Asset?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-1-7"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-1-7"
+                    data-bs-target="#accordion-1"
+                  >
+                    <div class="card-body">
+                      <p>
+                        You can top-up you Gold/Silver asset account at any time
+                        you so desire by buying additional gold/silver to add to
+                        the one you already have.
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                  <div class="card-header" id="accordion-heading-2-5">
+                    <button
+                      class="collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordion-collapse-2-5"
+                      aria-expanded="false"
+                      aria-controls="accordion-collapse-2-5"
+                    >
+                      How Do I Liquidate My Digital Gold/Silver Asset?
+                    </button>
+                  </div>
+                  <!-- /.card-header -->
+                  <div
+                    id="accordion-collapse-2-5"
+                    class="collapse"
+                    aria-labelledby="accordion-heading-2-5"
+                    data-bs-target="#accordion-2"
+                  >
+                    <div class="card-body">
+                      <p>
+                        You can liquidate you Gold/Silver asset by selling it in
+                        the trade section of the app/website. Funds will go to
+                        your wallet where you can request for a withdrawal to
+                        your bank
+                      </p>
+                    </div>
+                    <!-- /.card-body -->
+                  </div>
+                  <!-- /.collapse -->
+                </div>
+              </div>
+              <!-- /.accordion-wrapper -->
+            </div>
+            <!--/column -->
+          </div>
+          <!--/.row -->
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /section -->
+    </div>
+    <!-- /.content-wrapper -->
+    <footer class="bg-light">
+      <br /><br /><br /><br />
+      <div class="container pb-12 text-center">
+        <div class="row mt-n10 mt-lg-0">
+          <div class="col-xl-10 mx-auto">
+            <div class="row mb-3">
+              <div class="col-md-4">
+                <div class="widget">
+                  <h4 class="widget-title">Address</h4>
+                  <address>
+                    3 Babatunde Anjous Street, Off Admiralty Way, Lekki phase 1,
+                    Lekki, Lagos, Nigeria.
+                  </address>
+                </div>
+                <!-- /.widget -->
+              </div>
+              <!--/column -->
+              <div class="col-md-4">
+                <div class="widget">
+                  <h4 class="widget-title">Phone</h4>
+                  <p>
+                    <a href="tel:+2348074643990">+234 (0) 8188011528 </a
+                    ><br class="d-none d-md-block" /><a
+                      href="tel:+2348143450566"
+                      >+234 (0) 9095628833</a
+                    >
+                  </p>
+                </div>
+                <!-- /.widget -->
+              </div>
+              <!--/column -->
+              <div class="col-md-4">
+                <div class="widget">
+                  <h4 class="widget-title">E-mail</h4>
+                  <p>
+                    <a href="mailto:info@raregems.ng" class="link-body"
+                      >info@raregems.ng</a
+                    >
+                    <br class="d-none d-md-block" /><a
+                      href="mailto:support@raregems.ng"
+                      class="link-body"
+                      >support@raregems.ng</a
+                    >
+                  </p>
+                </div>
+                <!-- /.widget -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+            <p>
+              © 2021 <a href="https://raregems.ng">Rare Gems Jewelry Ltd</a>.
+              All rights reserved.
+              <span class="mb-3">
+                <br />Powered by
+                <a href="https://softwebdigital.com" target="new">SWD</a></span
+              >
+            </p>
+            <nav class="nav social justify-content-center">
+              <a href="https://www.instagram.com/raregemsgoldandsilver/"
+                ><i class="uil uil-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/RareGemsJewelry/"
+                ><i class="uil uil-facebook-f"></i
+              ></a>
+              <a href="https://api.whatsapp.com/send/?phone=234809944452"
+                ><i class="uil uil-whatsapp"></i
+              ></a>
             </nav>
-            <!-- /nav -->
+            <!-- /.social -->
           </div>
           <!-- /column -->
         </div>
         <!-- /.row -->
       </div>
       <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-light wrapper-border">
-      <div class="container py-14 py-md-16">
-        <h2 class="display-4 mb-3 text-center">FAQ</h2>
-        <p class="lead text-center mb-10 px-md-16 px-lg-0">If you don't see an answer to your question, you can send us an email.</p>
-        <div class="row">
-          <div class="col-lg-6 mb-0">
-            <div id="accordion-1" class="accordion-wrapper">
-              <div class="card">
-                <div class="card-header" id="accordion-heading-1-1">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-1" aria-expanded="false" aria-controls="accordion-collapse-1-1">What can I Do on the Website/App?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-1-1" class="collapse" aria-labelledby="accordion-heading-1-1" data-bs-target="#accordion-1">
-                  <div class="card-body">
-                    <p>You can make investments, buy and sell digital gold or silver assets.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-1-2">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-2" aria-expanded="false" aria-controls="accordion-collapse-1-2">What options are available?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-1-2" class="collapse" aria-labelledby="accordion-heading-1-2" data-bs-target="#accordion-1">
-                  <div class="card-body">
-                    <p>We have different types of investment packages in the investment section. You can also buy or sell gold/silver at spot prices in digital format or invest your money for returns after a specified period based on our terms of investment.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-1-3">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-3" aria-expanded="false" aria-controls="accordion-collapse-1-3">When can I buy or sell my gold/silver assets?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-1-3" class="collapse" aria-labelledby="accordion-heading-1-3" data-bs-target="#accordion-1">
-                  <div class="card-body">
-                    <p>You can buy or sell at anytime, 7 days a week, 24hours a day.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-1-4">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-4" aria-expanded="false" aria-controls="accordion-collapse-1-4">What payment options are available?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-1-4" class="collapse" aria-labelledby="accordion-heading-1-4" data-bs-target="#accordion-1">
-                  <div class="card-body">
-                    <p>You can either make payment with your card or do bank transfer to our account through your bank account. After deposit has been confirmed your wallet will be credited by the admin. Only card payment are automatically credited by the system.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-1-5">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-5" aria-expanded="false" aria-controls="accordion-collapse-1-5">Can I Increase My Investment or have multiple investments with the same account?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-1-5" class="collapse" aria-labelledby="accordion-heading-1-5" data-bs-target="#accordion-1">
-                  <div class="card-body">
-                    <p>Increment of Existing Investment can only be done on due date. Any Additional Investment after existing one shall be treated as a Separate Investment.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-1-6">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-6" aria-expanded="false" aria-controls="accordion-collapse-1-6">What is the Minimum I can Buy for Gold or Silver?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-1-6" class="collapse" aria-labelledby="accordion-heading-1-6" data-bs-target="#accordion-1">
-                  <div class="card-body">
-                    <p>The minimum amount you can buy for gold/silver is determined by you and it will be purchased at the spot price for gold/silver at the moment the purchase is being processed. Since it is stored digitally you can place order of any amount.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-1-7">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-7" aria-expanded="false" aria-controls="accordion-collapse-1-7">Can I Top-up my Gold or Silver Asset?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-1-7" class="collapse" aria-labelledby="accordion-heading-1-7" data-bs-target="#accordion-1">
-                  <div class="card-body">
-                    <p>You can top-up you Gold/Silver asset account at any time you so desire by buying additional gold/silver to add to the one you already have.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-            </div>
-            <!-- /.accordion-wrapper -->
-          </div>
-          <!--/column -->
-          <div class="col-lg-6">
-            <div id="accordion-2" class="accordion-wrapper">
-              <div class="card">
-                <div class="card-header" id="accordion-heading-2-1">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-1" aria-expanded="false" aria-controls="accordion-collapse-2-1">What is the interest rate on invested funds?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-2-1" class="collapse" aria-labelledby="accordion-heading-2-1" data-bs-target="#accordion-2">
-                  <div class="card-body">
-                    <p>The current rate on interest is 4% monthly accrued over the investment timeframe selected at the time investment is made. The rates may change depending market situation.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-2-2">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-2" aria-expanded="false" aria-controls="accordion-collapse-2-2">Is there a minimum or maximum amount that can be invested?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-2-2" class="collapse" aria-labelledby="accordion-heading-2-2" data-bs-target="#accordion-2">
-                  <div class="card-body">
-                    <p>Yes. You can invest any amount between 50,000 Naira (Fifty Thousand Naira) and 100,000,000 Naira (One Hundred Million Naira).</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-2-3">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-3" aria-expanded="false" aria-controls="accordion-collapse-2-3">How long does it take for my Investment to Mature?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-2-3" class="collapse" aria-labelledby="accordion-heading-2-3" data-bs-target="#accordion-2">
-                  <div class="card-body">
-                    <p>All investment takes a minimum of 6 months to mature. An investor has the option of choosing six months, nine months or 12 months investment period.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-2-4">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-4" aria-expanded="false" aria-controls="accordion-collapse-2-4">How long does it take for Withdrawal requests to be processed?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-2-4" class="collapse" aria-labelledby="accordion-heading-2-4" data-bs-target="#accordion-2">
-                  <div class="card-body">
-                    <p>Once a withdrawal request has been submitted and received by the admin, Investor will receive funds within 24-48 hours to his/her specified bank account.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-2-5">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-5" aria-expanded="false" aria-controls="accordion-collapse-2-5">How Do I Liquidate My Digital Gold/Silver Asset?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-2-5" class="collapse" aria-labelledby="accordion-heading-2-5" data-bs-target="#accordion-2">
-                  <div class="card-body">
-                    <p>You can liquidate you Gold/Silver asset by selling it in the trade section of the app/website. Funds will go to your wallet where you can request for a withdrawal to your bank account.  </p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-              <div class="card">
-                <div class="card-header" id="accordion-heading-2-6">
-                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-6" aria-expanded="false" aria-controls="accordion-collapse-2-6">Can I request for withdrawal before Maturity of Investment?</button>
-                </div>
-                <!-- /.card-header -->
-                <div id="accordion-collapse-2-6" class="collapse" aria-labelledby="accordion-heading-2-6" data-bs-target="#accordion-2">
-                  <div class="card-body">
-                    <p>An investor cannot request for withdrawal before maturity. Withdrawal requests will only be processed after maturity of investment.</p>
-                  </div>
-                  <!-- /.card-body -->
-                </div>
-                <!-- /.collapse -->
-              </div>
-              <!-- /.card -->
-            </div>
-            <!-- /.accordion-wrapper -->
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-  </div>
-  <!-- /.content-wrapper -->
-  <footer class="bg-light">
-    <br><br><br><br>
-    <div class="container pb-12 text-center">
-      <div class="row mt-n10 mt-lg-0">
-        <div class="col-xl-10 mx-auto">
-          <div class="row mb-3">
-            <div class="col-md-4">
-              <div class="widget">
-                <h4 class="widget-title">Address</h4>
-                <address>3 Babatunde Anjous Street, Off Admiralty Way, Lekki phase 1, Lekki, Lagos, Nigeria.</address>
-              </div>
-              <!-- /.widget -->
-            </div>
-            <!--/column -->
-            <div class="col-md-4">
-              <div class="widget">
-                <h4 class="widget-title">Phone</h4>
-                <p><a href="tel:+2348074643990">+234 (0) 8188011528 </a><br class="d-none d-md-block" /><a href="tel:+2348143450566">+234 (0) 9095628833</a></p>
-              </div>
-              <!-- /.widget -->
-            </div>
-            <!--/column -->
-            <div class="col-md-4">
-              <div class="widget">
-                <h4 class="widget-title">E-mail</h4>
-                <p><a href="mailto:info@raregems.ng" class="link-body">info@raregems.ng</a> <br class="d-none d-md-block" /><a href="mailto:support@raregems.ng" class="link-body">support@raregems.ng</a></p>
-              </div>
-              <!-- /.widget -->
-            </div>
-            <!--/column -->
-          </div>
-          <!--/.row -->
-          <p>© 2021 <a href="https://raregems.ng">Rare Gems Jewelry Ltd</a>. All rights reserved. <span class="mb-3">
-            <br>Powered by <a href="https://softwebdigital.com" target="new">SWD</a></span></p>
-          <nav class="nav social justify-content-center">
-            <a href="https://www.instagram.com/raregemsgoldandsilver/"><i class="uil uil-instagram"></i></a>
-            <a href="https://www.facebook.com/RareGemsJewelry/"><i class="uil uil-facebook-f"></i></a>
-            <a href="https://api.whatsapp.com/send/?phone=234809944452"><i class="uil uil-whatsapp"></i></a>
-          </nav>
-          <!-- /.social -->
-        </div>
-        <!-- /column -->
-      </div>
-      <!-- /.row -->
+    </footer>
+    <div class="progress-wrap">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
     </div>
-    <!-- /.container -->
-  </footer>
-  <div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/theme.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
 </html>
